@@ -15,7 +15,7 @@ app.use(session({
 }));
 app.use("/",usuariosRutas);
 
-var port=process.env.PORT || 3000;
+var port=process.env.PORT || 5500;
 
 app.listen(port, ()=>{
     console.log(`Servidor en http://localhost:${port}`);
